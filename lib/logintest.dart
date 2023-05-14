@@ -71,7 +71,7 @@ class loginpage extends StatelessWidget {
                 padding: EdgeInsets.all(10),
                 child: TextField(
                   controller: passname,
-                  decoration: InputDecoration(
+                   decoration: InputDecoration(
                     filled: true,
                     fillColor: Colors.blue[100],
                     enabledBorder: OutlineInputBorder(
