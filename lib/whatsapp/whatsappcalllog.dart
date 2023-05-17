@@ -46,27 +46,27 @@ class whatsappcall extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(100),
-        child: AppBar(
-          title: Text("WhatsApp"),
-          backgroundColor: Color.fromARGB(205, 12, 99, 64),
-          actions: [
-            IconButton(
-              icon: Icon(Icons.camera_alt_outlined),
-              onPressed: () {},
-            ),
-            IconButton(
-              icon: Icon(Icons.search),
-              onPressed: () {},
-            ),
-            IconButton(
-              icon: Icon(Icons.more_vert_rounded),
-              onPressed: () {},
-            )
-          ],
-        ),
-      ),
+      // appBar: PreferredSize(
+      //   preferredSize: Size.fromHeight(100),
+      //   child: AppBar(
+      //     title: Text("WhatsApp"),
+      //     backgroundColor: Color.fromARGB(205, 12, 99, 64),
+      //     actions: [
+      //       IconButton(
+      //         icon: Icon(Icons.camera_alt_outlined),
+      //         onPressed: () {},
+      //       ),
+      //       IconButton(
+      //         icon: Icon(Icons.search),
+      //         onPressed: () {},
+      //       ),
+      //       IconButton(
+      //         icon: Icon(Icons.more_vert_rounded),
+      //         onPressed: () {},
+      //       )
+      //     ],
+      //   ),
+      //),
       body: SingleChildScrollView(
         physics: ScrollPhysics(),
         child: Column(
