@@ -5,7 +5,7 @@ void main() {
 }
 
 class Grid1 extends StatelessWidget {
-  var icon = [ Icon(Icons.home),
+  var cardcontent= [ Icon(Icons.home),
       Icon(Icons.home),
         Icon(Icons.home),
           Icon(Icons.home),
@@ -32,6 +32,7 @@ class Grid1 extends StatelessWidget {
               decoration:  BoxDecoration(
                 borderRadius: BorderRadius.circular(30),
                  
+                 
                 //color: colors[index],
                 boxShadow: const [
                   BoxShadow(
@@ -48,7 +49,7 @@ class Grid1 extends StatelessWidget {
                     
                     child: ListTile(
                       title: Text("Heart Shaker"),
-                      leading: icon[index] ,
+                      leading: cardcontent[index] ,
                       tileColor: colors[index],
                       
                     ),
