@@ -132,110 +132,110 @@ class profileui extends StatelessWidget {
           SizedBox(
             height: 320,
             width: 320,
-          
-           child :ListView.builder(
-            itemCount: 7,
-            itemBuilder: (context, index) {
-              return Container(
-                child: Column
-                (children: [
-                  Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(22)),
-                    color: Color.fromARGB(255, 239, 234, 234),
-                    child: ListTile(
-                      leading: Icon(Icons.privacy_tip_outlined),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                      title: Text(
-                        "privacy",
-                        style: TextStyle(color: Colors.black, fontSize: 17),
+            child: ListView.builder(
+
+              itemCount: 6,
+              physics: NeverScrollableScrollPhysics(),
+              itemBuilder: (context, index) {
+                return Container(
+                  child: Column(children: [
+                    Card(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(22)),
+                      color: Color.fromARGB(255, 239, 234, 234),
+                      child: ListTile(
+                        leading: Icon(Icons.privacy_tip_outlined),
+                        trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        title: Text(
+                          "privacy",
+                          style: TextStyle(color: Colors.black, fontSize: 17),
+                        ),
                       ),
                     ),
-                  ),
-                  SizedBox(
-                    height: 5,
-                  ),
-                  Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(22)),
-                    color: Color.fromARGB(255, 239, 234, 234),
-                    child: ListTile(
-                      leading: Icon(Icons.history),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                      title: Text(
-                        "Purchase history",
-                        style: TextStyle(color: Colors.black, fontSize: 17),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Card(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(22)),
+                      color: Color.fromARGB(255, 239, 234, 234),
+                      child: ListTile(
+                        leading: Icon(Icons.history),
+                        trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        title: Text(
+                          "Purchase history",
+                          style: TextStyle(color: Colors.black, fontSize: 17),
+                        ),
                       ),
                     ),
-                  ),
-                   SizedBox(
-                    height: 5,
-                  ),
-                  Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(22)),
-                    color: Color.fromARGB(255, 239, 234, 234),
-                    child: ListTile(
-                      leading: Icon(Icons.help_outline_outlined),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                      title: Text(
-                        "Help & support",
-                        style: TextStyle(color: Colors.black, fontSize: 17),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Card(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(22)),
+                      color: Color.fromARGB(255, 239, 234, 234),
+                      child: ListTile(
+                        leading: Icon(Icons.help_outline_outlined),
+                        trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        title: Text(
+                          "Help & support",
+                          style: TextStyle(color: Colors.black, fontSize: 17),
+                        ),
                       ),
                     ),
-                  ),
-                   SizedBox(
-                    height: 5,
-                  ),
-                  Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(22)),
-                    color: Color.fromARGB(255, 239, 234, 234),
-                    child: ListTile(
-                      leading: Icon(Icons.settings),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                      title: Text(
-                        "Settings",
-                        style: TextStyle(color: Colors.black, fontSize: 17),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Card(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(22)),
+                      color: Color.fromARGB(255, 239, 234, 234),
+                      child: ListTile(
+                        leading: Icon(Icons.settings),
+                        trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        title: Text(
+                          "Settings",
+                          style: TextStyle(color: Colors.black, fontSize: 17),
+                        ),
                       ),
                     ),
-                  ),
-                   SizedBox(
-                    height: 5,
-                  ),
-                  Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(22)),
-                    color: Color.fromARGB(255, 239, 234, 234),
-                    child: ListTile(
-                      leading: Icon(Icons.person_add_outlined),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                      title: Text(
-                        "Invite a friend",
-                        style: TextStyle(color: Colors.black, fontSize: 17),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Card(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(22)),
+                      color: Color.fromARGB(255, 239, 234, 234),
+                      child: ListTile(
+                        leading: Icon(Icons.person_add_outlined),
+                        trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        title: Text(
+                          "Invite a friend",
+                          style: TextStyle(color: Colors.black, fontSize: 17),
+                        ),
                       ),
                     ),
-                  ),
-                   SizedBox(
-                    height: 5,
-                  ),
-                  Card(
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(22)),
-                    color: Color.fromARGB(255, 239, 234, 234),
-                    child: ListTile(
-                      leading: Icon(Icons.logout),
-                      trailing: Icon(Icons.arrow_forward_ios_outlined),
-                      title: Text(
-                        "Logout",
-                        style: TextStyle(color: Colors.black, fontSize: 17),
+                    SizedBox(
+                      height: 5,
+                    ),
+                    Card(
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(22)),
+                      color: Color.fromARGB(255, 239, 234, 234),
+                      child: ListTile(
+                        leading: Icon(Icons.logout),
+                        trailing: Icon(Icons.arrow_forward_ios_outlined),
+                        title: Text(
+                          "Logout",
+                          style: TextStyle(color: Colors.black, fontSize: 17),
+                        ),
                       ),
                     ),
-                  ),
-                ]),
-              );
-            },
-          ),
+                  ]),
+                );
+              },
+            ),
           )
         ],
       ),
