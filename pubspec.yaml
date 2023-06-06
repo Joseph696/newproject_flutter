@@ -36,6 +36,7 @@ dependencies:
   flutter_staggered_grid_view: ^0.6.2
   convex_bottom_bar: ^3.2.0
   flutter_rating_bar: ^4.0.1
+  introduction_screen: ^3.1.8
   
 
 
@@ -70,12 +71,16 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/icons/ic_launcher.png
+
     - assets/icons/302-3026464_png-file-svg-login-member-icon-png.png
     - assets/icons/8656178_facebook watch_chatting_video_streaming_application_icon.png
     - assets/icons/Picsart_23-05-07_15-07-10-916.png
     - assets/icons/logooo.png
     - lib/Animation/lf20_Gpt6Y2.json
+    - assets/icons/ic_launcher.png
+    - assets/icons/smartphone.png
+    - assets/icons/ic_launcher88.png
+    - assets/icons/degsgd.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
