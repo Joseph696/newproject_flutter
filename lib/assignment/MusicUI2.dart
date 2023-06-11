@@ -79,7 +79,7 @@ class tourismapp extends StatelessWidget {
                       ),
                     ])),
                 Padding(
-                  padding: const EdgeInsets.all(10.0),
+                  padding: const EdgeInsets.all(15.0),
                   child: Align(
                       alignment: Alignment.bottomLeft,
                       child: Text(
@@ -87,9 +87,7 @@ class tourismapp extends StatelessWidget {
                         style: TextStyle(color: Colors.pink[100], fontSize: 20),
                       )),
                 ),
-                SizedBox(
-                  height: 2,
-                ),
+               
                 Column(
                   children: [
                     ListView.builder(
@@ -102,7 +100,7 @@ class tourismapp extends StatelessWidget {
                               children: [
                                   Icon(
                                 Icons.star_border,color: Colors.pink[100],),
-                              SizedBox(width: 10,),
+                              SizedBox(width: 13,),
                                 Icon(Icons.download_outlined,color: Colors.pink[100],)
                               ],
                              
