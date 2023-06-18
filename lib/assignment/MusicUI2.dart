@@ -34,7 +34,8 @@ class tourismapp extends StatelessWidget {
             padding: const EdgeInsets.all(14.0),
             child: SingleChildScrollView(
               child:
-                  Column(mainAxisAlignment: MainAxisAlignment.start, children: [
+                  Column(
+                    mainAxisAlignment: MainAxisAlignment.start, children: [
                 Text("Musify.",
                     style: TextStyle(
                         color: Colors.pink[100],

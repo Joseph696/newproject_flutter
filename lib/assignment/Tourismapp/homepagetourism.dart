@@ -41,11 +41,22 @@ class hometourismpage extends StatelessWidget {
                     width: 55,
                   ),
                   Container(
-                      height: 55,
-                      width: 55,
-                      child: Image.network(
-                          fit: BoxFit.cover,
-                          "https://media-cdn.tripadvisor.com/media/photo-s/1c/19/dd/ff/grand-water-villas-with.jpg"))
+                    height: 55,
+                    width: 55,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(10),
+                      image: DecorationImage(
+                        fit: BoxFit.cover,
+                        image: NetworkImage(
+                        
+                        "https://media-cdn.tripadvisor.com/media/photo-s/1c/19/dd/ff/grand-water-villas-with.jpg"),)
+                    ),
+                      // height: 55,
+                      // width: 55,
+                      // child: Image.network(
+                      //     fit: BoxFit.cover,
+                      //     "https://media-cdn.tripadvisor.com/media/photo-s/1c/19/dd/ff/grand-water-villas-with.jpg")
+                      )
                 ],
               ),
             ),

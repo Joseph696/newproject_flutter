@@ -11,6 +11,7 @@ class Column1 extends StatelessWidget {
     return Column(
       children: [
         Image.asset(
+          
             "assets/icons/ic_launcher.png",width: 45),
         Text("30 MINS POLICY")
       ],

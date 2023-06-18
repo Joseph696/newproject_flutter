@@ -1,6 +1,7 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:newproject_flutter/Cardcontainer.dart';
 
 import '../Column1.dart';
 import '../container1.dart';
@@ -85,45 +86,7 @@ class farmersfresh extends StatelessWidget {
                                 ),
                               ),
                               Padding(padding: EdgeInsets.all(04)),
-                              Column(
-                                children: [
-                                  Container(
-                                      child: Card(
-                                    shape: Border.all(
-                                        color: Colors.grey, width: 1),
-                                    child: SizedBox(
-                                      height: 65,
-                                      child: Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          SizedBox(width: 10),
-                                          Column1(),
-                                          SizedBox(width: 30),
-                                          Column(
-                                            children: [
-                                              Image.asset(
-                                                  "assets/icons/degsgd.png",
-                                                  width: 45),
-                                              Text("TRACEABILITY")
-                                            ],
-                                          ),
-                                          SizedBox(width: 30),
-                                          Column(
-                                            children: [
-                                              Image.asset(
-                                                  "assets/icons/ic_launcher88.png",
-                                                  width: 45),
-                                              Text("LOCAL SOURCING")
-                                            ],
-                                          ),
-                                          SizedBox(width: 10),
-                                        ],
-                                      ),
-                                    ),
-                                  )),
-                                ],
-                              ),
+                              Cardcontainer(),
                               Padding(
                                 padding: const EdgeInsets.all(8.0),
                                 child: Container(
